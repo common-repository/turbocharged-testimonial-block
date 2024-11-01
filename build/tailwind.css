@@ -1,0 +1,403 @@
+/* 
+	tailwindcss styles and custom components
+*/
+
+/* @tailwind base; */
+
+[class*="turbocharged-testimonial-block"] .container {
+  width: 100%
+}
+
+@media (min-width: 640px) {
+  [class*="turbocharged-testimonial-block"] .container {
+    max-width: 640px
+  }
+}
+
+@media (min-width: 768px) {
+  [class*="turbocharged-testimonial-block"] .container {
+    max-width: 768px
+  }
+}
+
+@media (min-width: 1024px) {
+  [class*="turbocharged-testimonial-block"] .container {
+    max-width: 1024px
+  }
+}
+
+@media (min-width: 1280px) {
+  [class*="turbocharged-testimonial-block"] .container {
+    max-width: 1280px
+  }
+}
+
+[class*="turbocharged-testimonial-block"] .bg-transparent {
+  background-color: transparent
+}
+
+[class*="turbocharged-testimonial-block"] .hover\:bg-gray-200:hover {
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(237, 242, 247, var(--bg-opacity))
+}
+
+[class*="turbocharged-testimonial-block"] .bg-no-repeat {
+  background-repeat: no-repeat
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-none {
+  border-radius: 0px
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-sm {
+  border-radius: var( --ttb-border-radius-sm )
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-md {
+  border-radius: var( --ttb-border-radius-md )
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-lg {
+  border-radius: var( --ttb-border-radius-lg )
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-xl {
+  border-radius: var( --ttb-border-radius-xl )
+}
+
+[class*="turbocharged-testimonial-block"] .rounded-full {
+  border-radius: 9999px
+}
+
+[class*="turbocharged-testimonial-block"] .border-solid {
+  border-style: solid
+}
+
+[class*="turbocharged-testimonial-block"] .border-dashed {
+  border-style: dashed
+}
+
+[class*="turbocharged-testimonial-block"] .border-dotted {
+  border-style: dotted
+}
+
+[class*="turbocharged-testimonial-block"] .border-double {
+  border-style: double
+}
+
+[class*="turbocharged-testimonial-block"] .border-none {
+  border-style: none
+}
+
+[class*="turbocharged-testimonial-block"] .border-0 {
+  border-width: 0px
+}
+
+[class*="turbocharged-testimonial-block"] .border-1 {
+  border-width: var( --ttb-border-width-sm )
+}
+
+[class*="turbocharged-testimonial-block"] .border-2 {
+  border-width: var( --ttb-border-width-md )
+}
+
+[class*="turbocharged-testimonial-block"] .border-4 {
+  border-width: var( --ttb-border-width-lg )
+}
+
+[class*="turbocharged-testimonial-block"] .border-8 {
+  border-width: var( --ttb-border-width-xl )
+}
+
+[class*="turbocharged-testimonial-block"] .block {
+  display: block
+}
+
+[class*="turbocharged-testimonial-block"] .flex {
+  display: flex
+}
+
+[class*="turbocharged-testimonial-block"] .flex-row-reverse {
+  flex-direction: row-reverse
+}
+
+[class*="turbocharged-testimonial-block"] .flex-col {
+  flex-direction: column
+}
+
+[class*="turbocharged-testimonial-block"] .flex-col-reverse {
+  flex-direction: column-reverse
+}
+
+[class*="turbocharged-testimonial-block"] .justify-center {
+  justify-content: center
+}
+
+[class*="turbocharged-testimonial-block"] .justify-between {
+  justify-content: space-between
+}
+
+[class*="turbocharged-testimonial-block"] .float-right {
+  float: right
+}
+
+[class*="turbocharged-testimonial-block"] .clear-both {
+  clear: both
+}
+
+[class*="turbocharged-testimonial-block"] .h-24 {
+  height: 96px
+}
+
+[class*="turbocharged-testimonial-block"] .mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+[class*="turbocharged-testimonial-block"] .mb-0 {
+  margin-bottom: 0px
+}
+
+[class*="turbocharged-testimonial-block"] .mt-1 {
+  margin-top: 4px
+}
+
+[class*="turbocharged-testimonial-block"] .mb-2 {
+  margin-bottom: 8px
+}
+
+[class*="turbocharged-testimonial-block"] .mb-3 {
+  margin-bottom: 12px
+}
+
+[class*="turbocharged-testimonial-block"] .mt-8 {
+  margin-top: 32px
+}
+
+[class*="turbocharged-testimonial-block"] .-mt-10 {
+  margin-top: -40px
+}
+
+[class*="turbocharged-testimonial-block"] .-mt-16 {
+  margin-top: -64px
+}
+
+[class*="turbocharged-testimonial-block"] .-mt-20 {
+  margin-top: -80px
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-0 {
+  opacity: 0
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-10 {
+  opacity: .1
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-20 {
+  opacity: .2
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-30 {
+  opacity: .3
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-40 {
+  opacity: .4
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-50 {
+  opacity: .5
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-60 {
+  opacity: .6
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-70 {
+  opacity: .7
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-80 {
+  opacity: .8
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-90 {
+  opacity: .9
+}
+
+[class*="turbocharged-testimonial-block"] .opacity-100 {
+  opacity: 1
+}
+
+[class*="turbocharged-testimonial-block"] .overflow-hidden {
+  overflow: hidden
+}
+
+[class*="turbocharged-testimonial-block"] .p-10 {
+  padding: 40px
+}
+
+[class*="turbocharged-testimonial-block"] .px-3 {
+  padding-left: 12px;
+  padding-right: 12px
+}
+
+[class*="turbocharged-testimonial-block"] .px-6 {
+  padding-left: 24px;
+  padding-right: 24px
+}
+
+[class*="turbocharged-testimonial-block"] .pb-0 {
+  padding-bottom: 0px
+}
+
+[class*="turbocharged-testimonial-block"] .pr-2 {
+  padding-right: 8px
+}
+
+[class*="turbocharged-testimonial-block"] .pt-3 {
+  padding-top: 12px
+}
+
+[class*="turbocharged-testimonial-block"] .pt-16 {
+  padding-top: 64px
+}
+
+[class*="turbocharged-testimonial-block"] .pr-32 {
+  padding-right: 128px
+}
+
+[class*="turbocharged-testimonial-block"] .pl-32 {
+  padding-left: 128px
+}
+
+[class*="turbocharged-testimonial-block"] .pt-64 {
+  padding-top: 256px
+}
+
+[class*="turbocharged-testimonial-block"] .absolute {
+  position: absolute
+}
+
+[class*="turbocharged-testimonial-block"] .relative {
+  position: relative
+}
+
+[class*="turbocharged-testimonial-block"] .inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0
+}
+
+[class*="turbocharged-testimonial-block"] .right-0 {
+  right: 0
+}
+
+[class*="turbocharged-testimonial-block"] .bottom-0 {
+  bottom: 0
+}
+
+[class*="turbocharged-testimonial-block"] .left-0 {
+  left: 0
+}
+
+[class*="turbocharged-testimonial-block"] .left-auto {
+  left: auto
+}
+
+[class*="turbocharged-testimonial-block"] .shadow {
+  box-shadow: var( --ttb-box-shadow-sm )
+}
+
+[class*="turbocharged-testimonial-block"] .shadow-md {
+  box-shadow: var( --ttb-box-shadow-md )
+}
+
+[class*="turbocharged-testimonial-block"] .shadow-lg {
+  box-shadow: var( --ttb-box-shadow-lg )
+}
+
+[class*="turbocharged-testimonial-block"] .shadow-xl {
+  box-shadow: var( --ttb-box-shadow-xl )
+}
+
+[class*="turbocharged-testimonial-block"] .w-1\/2 {
+  width: 50%
+}
+
+[class*="turbocharged-testimonial-block"] .w-1\/3 {
+  width: 33.333333%
+}
+
+[class*="turbocharged-testimonial-block"] .w-2\/3 {
+  width: 66.666667%
+}
+
+[class*="turbocharged-testimonial-block"] .w-1\/4 {
+  width: 25%
+}
+
+[class*="turbocharged-testimonial-block"] .w-full {
+  width: 100%
+}
+
+[class*="turbocharged-testimonial-block"] .z-10 {
+  z-index: 10
+}
+
+[class*="turbocharged-testimonial-block"] .-z-10 {
+  z-index: -10
+}
+
+[class*="turbocharged-testimonial-block"] .transform {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y))
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0
+  }
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    -webkit-animation-timing-function: cubic-bezier(0.8,0,1,1);
+            animation-timing-function: cubic-bezier(0.8,0,1,1)
+  }
+
+  50% {
+    transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0,0,0.2,1);
+            animation-timing-function: cubic-bezier(0,0,0.2,1)
+  }
+}

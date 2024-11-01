@@ -1,0 +1,32 @@
+/*!
+  Common Plugin/Block Styles
+*/
+
+// Custom namespace
+[class*="turbocharged-testimonial-block"] {
+	/* Turbocharged Testimonial Block (ttb) Style Variables */
+
+	/* Box Shadow Color */
+	--ttb-box-shadow-color: 0,0,0;
+
+	/* Border Radius */
+	--ttb-border-radius-sm:2px;
+	--ttb-border-radius-md:4px;
+	--ttb-border-radius-lg:8px;
+	--ttb-border-radius-xl:24px;
+	--ttb-border-radius-2xl:9999px;
+
+	/* Border Width */
+	--ttb-border-width-sm:1px;
+	--ttb-border-width-md:2px;
+	--ttb-border-width-lg:4px;
+	--ttb-border-width-xl:8px;
+	--ttb-border-width-2xl:16px;
+
+	/* Box Shadow */
+	--ttb-box-shadow-sm: 0 1px 3px 0 rgba( var( --ttb-box-shadow-color ), 0.1), 0 1px 2px 0 rgba( var( --ttb-box-shadow-color ), 0.06);
+	--ttb-box-shadow-md:0 4px 6px -1px rgba( var( --ttb-box-shadow-color ), 0.1), 0 2px 4px -1px rgba( var( --ttb-box-shadow-color ), 0.06);
+	--ttb-box-shadow-lg:0 10px 15px -3px rgba( var( --ttb-box-shadow-color ), 0.1), 0 4px 6px -2px rgba( var( --ttb-box-shadow-color ), 0.05);
+	--ttb-box-shadow-xl:0 20px 25px -5px rgba( var( --ttb-box-shadow-color ), 0.1), 0 10px 10px -5px rgba( var( --ttb-box-shadow-color ), 0.04);
+	--ttb-box-shadow-2xl:0 25px 50px -12px rgba( var( --ttb-box-shadow-color ), 0.25);
+}

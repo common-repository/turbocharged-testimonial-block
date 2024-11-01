@@ -1,0 +1,23 @@
+/* editor only styles */
+.wp-block-turbocharged-testimonial-block-testimonial {
+
+	// media upload placeholder
+	.components-placeholder {
+		height:100%;
+		background:transparent;
+	}
+
+	&.is-style-stacked .components-placeholder, &.is-style-stacked-flipped .components-placeholder {
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+	}
+
+	// wrap quotation mark toolbar
+	&.components-toolbar {
+		display:flex;
+		flex-wrap:wrap;
+	}
+}

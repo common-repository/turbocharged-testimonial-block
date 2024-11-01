@@ -1,0 +1,125 @@
+{
+	"name": "turbocharged-testimonial-block/testimonial",
+	"attributes": {
+		"author": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.author"
+		},
+		"position": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.position"
+		},
+		"testimonial": {
+			"type": "string",
+			"source": "html",
+			"selector": "p.testimonial"
+		},
+		"className": {
+			"type": "string",
+			"default": "is-style-default"
+		},		
+		"imgBackgroundColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"imgBackgroundSize": {
+			"type": "number",
+			"default": 400
+		},
+		"imgCustomSizing": {
+			"type": "boolean",
+			"default": false
+		},
+		"imgFocalPoint": {
+			"type": "object",
+			"default": {
+				"x": 0.5,
+				"y": 0.5
+			}
+		},
+		"imgId": {
+			"type": "number"
+		},
+		"imgUrl": {
+			"type": "string"
+		},
+		"textBackgroundColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"textBackgroundOpacity": {
+			"type": "string",
+			"default": "opacity-80"
+		},
+		"borderRadius" : {
+			"type": "string",
+			"default": "rounded-xl"
+		},
+		"customBorderRadius": {
+			"type": "number",
+			"default": null
+		},
+		"useCustomBorderRadius" : {
+			"type": "boolean",
+			"default": false
+		},
+		"borderWidth" : {
+			"type": "string",
+			"default": "border-0"
+		},
+		"customBorderWidth": {
+			"type": "number",
+			"default": null
+		},
+		"useCustomBorderWidth" : {
+			"type": "boolean",
+			"default": false
+		},
+		"borderStyle" : {
+			"type": "string",
+			"default": "border-solid"
+		},
+		"borderColor" : {
+			"type": "string"
+		},
+		"boxShadow" : {
+			"type": "string",
+			"default": "shadow-xl"
+		},
+		"useCustomBoxShadow" : {
+			"type": "boolean",
+			"default": false
+		},
+		"customBoxShadow" : {
+			"type": "object",
+			"default": {
+				"x": 6,
+				"y": 6,
+				"blur": 0,
+				"spread": 0,
+				"opacity": 20
+			}
+		},
+		"boxShadowColor" : {
+			"type": "string",
+			"default": "#000000"
+		},
+		"padding" : {
+			"type": "string",
+			"default": "p-10"
+		},
+		"quotationMarkIcon" : {
+			"type": "number",
+			"default": 0
+		},
+		"quotationMarkColor" : {
+			"type": "string"
+		},
+		"quotationMarkOpacity" : {
+			"type": "string",
+			"default": "opacity-100"
+		}
+	}
+}
